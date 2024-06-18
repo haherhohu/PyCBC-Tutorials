@@ -91,10 +91,7 @@ pyplot.ylabel('signal-to-noise')
 pyplot.xlabel('GPS Time (s)')
 pyplot.legend()
 pyplot.show()
-
-
-# In[ ]:
-
-
+pyplot.savefig("gw151226_snr.png")
+pyplot.clf()
 
 
